@@ -1,0 +1,22 @@
+$white: #eee;
+$orange: #f18e40;
+$red: #c23946;
+$gray: #2d2d2d;
+$green: #5cb85c;
+$todo-app-height: 500px;
+$todo-app-width: 500px;
+$margin-and-padding: 15px;
+
+#snake_game {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: $todo-app-width;
+  height: $todo-app-height;
+  border: 1px solid lighten($orange, 20%);
+  border-radius: 10px;
+  overflow: hidden;
+}

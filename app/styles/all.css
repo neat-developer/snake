@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-user-select: none;
+  user-select: none; }
+
+body {
+  background: #e27442;
+  font-family: 'Roboto', sans-serif; }
+
+.inline-block {
+  display: inline-block; }
+
+#snake_game {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #f8c69f;
+  border-radius: 10px;
+  overflow: hidden; }
